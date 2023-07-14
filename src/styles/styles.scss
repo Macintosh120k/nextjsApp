@@ -1,0 +1,50 @@
+.contenedorPr {
+  min-height: calc(100vh - 120px);
+}
+.titleRect {
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 3px solid transparent;
+  border-image: linear-gradient(
+    90deg,
+    rgba(201, 200, 200, 1) 36%,
+    rgba(94, 196, 214, 1) 36%,
+    rgba(94, 196, 214, 1) 37%,
+    rgba(94, 196, 214, 1) 63%,
+    rgba(201, 200, 200, 1) 63%
+  );
+  border-image-slice: 1;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.titleRect h4 {
+  font-weight: bold;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: 20px !important;
+  font-weight: bold;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  border-radius: 5px;
+  color: #a1a1a1;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgb(254, 254, 254);
+  border-radius: 5px;
+  padding: 2px;
+}
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 0px !important;
+  left: auto;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 0px !important;
+  right: auto;
+}
